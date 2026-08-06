@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# artifacts
+cache/
+test_cache/
+text_ckpt/
+img_ckpt/
+weights/
+*.npz
+*.npy
+*.pt
+*.parquet
+submission.csv
+oof_*.csv
+
+# data (never commit DICOM or reports - PHI risk)
+train_series/
+test_series/
+*.dcm
+train.csv
+test.csv
